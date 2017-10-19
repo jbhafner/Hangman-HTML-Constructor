@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		
+		<div class="jumbotron">
+			<h1>TECH Hangman</h1>
+			<p>What is your favorite web technology?</p>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Guess the technology</h3>
+			</div>
+			<div>
+				<h2 id="wordToGuess">_ _ _ _ _ _</h2>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+				Wrong Guesses: <span id="wrongGuess"></span>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+				Guesses Left: <span id="numGuesses"></span>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+				Win Counter: <span id="winCounter"></span>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+				Loss Counter: <span id="lossCounter"></span>
+			</div>
+		</div>
+				
+	</div>
+<script src="hangman.js"></script>
+</body>
+</html>
